@@ -1,3 +1,37 @@
-.header-bg {
-    background: linear-gradient(90deg, rgb(50, 121, 179) 0%, rgb(20, 13, 46) 100%);
+  .test-border {
+    border: 5px solid black;
+  }
+  
+  .red-border {
+    border: 2px solid red;
+  }
+  
+  .bottom-border {
+    border-bottom: 2px solid black;
+  }
+    
+  .info-list-top {
+    font-size: 20px;
+  }
+  
+  .forecast-list {
+    font-size: 22px;
+    padding-top: 10px;
+  }
+  
+  .font {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .w-98 {
+    width: 98%;
+  }
+  
+  .weather-bg {
+    background: linear-gradient(0deg, rgba(142,205,255,1) 0%, rgba(0,144,255,1) 100%);
+  }
+  
+  .header-bg {
+    background: linear-gradient(90deg, rgba(47,161,252,1) 0%, rgba(41,11,156,1) 100%);
   }
