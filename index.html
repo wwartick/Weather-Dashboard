@@ -24,6 +24,7 @@
                 <label for="location"><h2 class="font-weight-bold">Search for a City:</h2></label>
                 <input name="location" placeholder="e.g. San Francisco" type="text" autofocus="true" class="col-12 mb-2 py-2" id="city"/>
                 <button type="submit" class="btn btn-primary col-12 mt-1">Search</button>
+                <button type="button" class="btn btn-primary col-12 mt-1" id ="clear-search">Clear Search History</button>
             </form>
 
             <ul id="search-history" style="list-style: none;" class="pl-3"></ul>
@@ -33,22 +34,11 @@
 
             <div class="container mt-3" id="top"></div>
             <div class="container mt-3 pl-2" id="bottom"></div>
-
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                  <h5>Todays Date</h5>
-                  <img src="http://openweathermap.org/img/wn/01d.png">
-                  <div>temp</div>
-                  <div>temp</div>
-                  <div>temp</div>
-                </div>
-              </div>
-
         </section>
 
     </main>
 
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/3.0.1/luxon.min.js" integrity="sha512-6ZJuab/UnRq1muTChgrVxJhSgygmL2GMLVmSJN7pcBEqJ1dWPbqN9CiZ6U3HrcApTIJsLnMgXYBYgtVkJ8fWiw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./assets/script.js"></script>
     
 </body>
