@@ -11,7 +11,7 @@ A weather dashboard that displays a requested cities current weather as well as 
 * Express
 
 ## Deployed Link
-https://radiant-waters-97722.herokuapp.com/notes
+https://wwartick.github.io/Weather-Dashboard/
 
 ## Screenshot
 ![screenshot 1 of project](assets/screenshots/ss1.png)
